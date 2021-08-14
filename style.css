@@ -1,4 +1,24 @@
 body {
-    background: gray;
+    text-align: center;
+    color: rgb(122, 121, 121);
 }
 
+
+.header {
+    block-size: auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    line-height: 6px;
+    text-align: left;
+    
+    color: rgb(34, 30, 30);
+    font-size: 12px;
+}
+
+.footer {
+    padding: 10px;
+    text-align: left;
+    background-color:rgb(53, 53, 61) ;
+    color: white;
+    font-size: 12px;
+}
