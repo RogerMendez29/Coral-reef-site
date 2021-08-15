@@ -29,6 +29,9 @@ section {
     color: rgb(87, 85, 85);
     font-size: 12px;
 }
+section h2{
+    text-shadow: 10px 10px 0 rgb(238, 236, 236);
+}
 .footer {
     height: 200px;
     padding: 10px;
