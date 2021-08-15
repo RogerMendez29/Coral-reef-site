@@ -1,24 +1,41 @@
 body {
-    text-align: center;
+    margin: 0;
+    padding: 0; 
     color: rgb(122, 121, 121);
+    text-align: center;
 }
-
-
+section {
+    margin: 0 auto;
+    width: 650px;
+    text-align: center;
+}
+.container {
+    position: relative; width: 100%;
+}
+.intro {
+    position: absolute;top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(87, 85, 85);
+}
 .header {
-    block-size: auto;
     padding-bottom: 5px;
     padding-top: 5px;
     line-height: 6px;
     text-align: left;
-    
-    color: rgb(34, 30, 30);
+    position: absolute;top: 80%;
+    color: rgb(87, 85, 85);
     font-size: 12px;
+}
+.footer {
+    text-align: center;
+    height: 200px;
+    padding: 10px;
+    color: rgb(206, 205, 205);
+    font-size: 12px;
+    background-color: rgb(51, 50, 50);
 }
 
-.footer {
-    padding: 10px;
-    text-align: left;
-    background-color:rgb(53, 53, 61) ;
-    color: white;
-    font-size: 12px;
-}
+
+
+
