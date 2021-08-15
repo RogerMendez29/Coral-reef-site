@@ -1,8 +1,8 @@
 body {
+    font-family: sans-serif;
     margin: 0;
     padding: 0; 
-    color: rgb(122, 121, 121);
-    text-align: center;
+    color: rgb(122, 121, 121);  
 }
 section {
     margin: 0 auto;
@@ -12,11 +12,13 @@ section {
 .container {
     position: relative; width: 100%;
 }
-.intro {
-    position: absolute;top: 50%;
+.intro { 
+    font-family: brush script mt ;
+    font-size: 50px;
+    position: absolute;top: 40%;
     width: 100%;
     text-align: center;
-    color: rgb(87, 85, 85);
+    color: rgb(245, 241, 241);
 }
 .header {
     padding-bottom: 5px;
@@ -28,14 +30,43 @@ section {
     font-size: 12px;
 }
 .footer {
-    text-align: center;
     height: 200px;
     padding: 10px;
     color: rgb(206, 205, 205);
     font-size: 12px;
     background-color: rgb(51, 50, 50);
 }
-
-
-
+.footer li {
+    color: white;
+    font-size: 20px;
+}
+.message {
+    text-align: center;
+}
+a:link {
+    color: darkblue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: darkblue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+span {   
+    transition: all 0.8ms ease;
+}
+span.fade { 
+   color: rgb(20, 40, 129);
+}
 
